@@ -11,6 +11,8 @@
 		D05909BB277BB31C00369876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05909BA277BB31C00369876 /* SceneDelegate.swift */; };
 		D05909C2277BB31D00369876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05909C1277BB31D00369876 /* Assets.xcassets */; };
 		D05909C5277BB31D00369876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05909C3277BB31D00369876 /* LaunchScreen.storyboard */; };
+		D06109662782F9B300458393 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06109652782F9B300458393 /* GFButton.swift */; };
+		D0610968278318A700458393 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0610967278318A700458393 /* GFTextField.swift */; };
 		D0B6F80A277E652800C1F196 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F809277E652800C1F196 /* SearchVC.swift */; };
 		D0B6F80C277E655F00C1F196 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F80B277E655F00C1F196 /* FavoritesListVC.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +24,8 @@
 		D05909C1277BB31D00369876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D05909C4277BB31D00369876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D05909C6277BB31D00369876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06109652782F9B300458393 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		D0610967278318A700458393 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		D0B6F809277E652800C1F196 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		D0B6F80B277E655F00C1F196 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +67,8 @@
 				D05909C3277BB31D00369876 /* LaunchScreen.storyboard */,
 				D05909C6277BB31D00369876 /* Info.plist */,
 				D0B6F80B277E655F00C1F196 /* FavoritesListVC.swift */,
+				D06109652782F9B300458393 /* GFButton.swift */,
+				D0610967278318A700458393 /* GFTextField.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B6F80C277E655F00C1F196 /* FavoritesListVC.swift in Sources */,
+				D06109662782F9B300458393 /* GFButton.swift in Sources */,
 				D05909B9277BB31C00369876 /* AppDelegate.swift in Sources */,
 				D05909BB277BB31C00369876 /* SceneDelegate.swift in Sources */,
 				D0B6F80A277E652800C1F196 /* SearchVC.swift in Sources */,
+				D0610968278318A700458393 /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
