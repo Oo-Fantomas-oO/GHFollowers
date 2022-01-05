@@ -15,6 +15,7 @@
 		D0610968278318A700458393 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0610967278318A700458393 /* GFTextField.swift */; };
 		D0B6F80A277E652800C1F196 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F809277E652800C1F196 /* SearchVC.swift */; };
 		D0B6F80C277E655F00C1F196 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F80B277E655F00C1F196 /* FavoritesListVC.swift */; };
+		D0CF660E2784EE81003A47DE /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CF660D2784EE81003A47DE /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D0610967278318A700458393 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		D0B6F809277E652800C1F196 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		D0B6F80B277E655F00C1F196 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		D0CF660D2784EE81003A47DE /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D0B6F80B277E655F00C1F196 /* FavoritesListVC.swift */,
 				D06109652782F9B300458393 /* GFButton.swift */,
 				D0610967278318A700458393 /* GFTextField.swift */,
+				D0CF660D2784EE81003A47DE /* FollowerListVC.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				D06109662782F9B300458393 /* GFButton.swift in Sources */,
 				D05909B9277BB31C00369876 /* AppDelegate.swift in Sources */,
 				D05909BB277BB31C00369876 /* SceneDelegate.swift in Sources */,
+				D0CF660E2784EE81003A47DE /* FollowerListVC.swift in Sources */,
 				D0B6F80A277E652800C1F196 /* SearchVC.swift in Sources */,
 				D0610968278318A700458393 /* GFTextField.swift in Sources */,
 			);
