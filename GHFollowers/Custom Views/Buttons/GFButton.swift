@@ -11,6 +11,8 @@ class GFButton: UIButton {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        configure()
     }
     
     required init?(coder: NSCoder) {
@@ -29,5 +31,10 @@ class GFButton: UIButton {
         setTitleColor(.white, for: .normal)
         titleLabel?.font      = UIFont.preferredFont(forTextStyle: .headline)
         translatesAutoresizingMaskIntoConstraints = false
+    }
+    
+    func set(background: UIColor, title: String) {
+        self.backgroundColor = background
+        setTitle(title, for: .normal)
     }
 }

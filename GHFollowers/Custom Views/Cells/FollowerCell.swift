@@ -32,6 +32,7 @@ class FollowerCell: UICollectionViewCell {
         addSubview(avatarImageView)
         addSubview(usernameLabel)
         
+//        self.translatesAutoresizingMaskIntoConstraints = false
         let padding: CGFloat = 8.0
         
         NSLayoutConstraint.activate([

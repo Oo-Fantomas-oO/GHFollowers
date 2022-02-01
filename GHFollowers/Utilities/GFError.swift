@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Fantomas on 09.01.2022.
+//  Created by Fantomas on 19.01.2022.
 //
 
 import Foundation
