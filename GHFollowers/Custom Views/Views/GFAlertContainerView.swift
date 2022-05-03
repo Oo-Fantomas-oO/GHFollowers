@@ -2,19 +2,27 @@
 //  GFAlertContainerView.swift
 //  GHFollowers
 //
-//  Created by Fantomas on 23.02.2022.
+//  Created by Fantomas on 25.04.2022.
 //
 
 import UIKit
 
 class GFAlertContainerView: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        configure()
     }
-    */
-
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+ 
+    private func configure() {
+        backgroundColor    = .systemBackground
+        layer.cornerRadius = 10.0
+        layer.borderWidth  = 2.0
+        layer.borderColor  = UIColor.white.cgColor
+        translatesAutoresizingMaskIntoConstraints = false
+    }
 }
